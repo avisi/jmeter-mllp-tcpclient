@@ -3,7 +3,7 @@ jmeter-mllp-tcpclient
 
 TCPClient for use in JMeter TCP sampler for sending messages over MLLP to a HL7 interface engine
 
-## Example
+### Getting started
 
 - Clone the repo
 - Build using maven `mvn install`
