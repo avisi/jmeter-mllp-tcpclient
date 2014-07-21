@@ -15,7 +15,7 @@ TCPClient for use in JMeter TCP sampler for sending messages over MLLP to a HL7 
 
 - Create a Thread Group
 - Add a regular TCP Sampler to the Thread Group 
-- Specify `nl.avisi.jmeter.mllsampler.MllpTCPClient` as the TCP client classname in the TCP Sampler.
+- Specify `nl.avisi.jmeter.mllpsampler.MllpTCPClient` as the TCP client classname in the TCP Sampler.
 - Enter a hostname and portnumber in the TCP Sampler, add a HL7 text message, set no delay
 - Fire away!
 
